@@ -87,7 +87,22 @@ try{
 function doScroll() { if (window.pageYOffset === 0) { window.scrollTo(0,1); } }  
 window.onload = function() { setTimeout(doScroll, 100); }  
 
-</script>  
+</script>
+
+<script>
+  // エラーメッセージや警告を抑制
+  window.onerror = function (message, source, lineno, colno, error) {
+    // エラーメッセージをコンソールに表示しない
+    return true;
+  };
+  
+  // アラートを無効化する
+  window.alert = function () {
+    // アラートの表示を無効化
+    console.log("Alert suppressed");
+  };
+  </script>
+  
 
 </head>
 
