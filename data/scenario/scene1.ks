@@ -197,7 +197,7 @@
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
         'event': 'button_click',
-        'button_name': 'choice1_2_no'
+        'button_name': 'choice1_3_no'
     });
 [endscript]
 [bg  time="100"  method="crossfade"  storage="game_question6.5.png"  ]
